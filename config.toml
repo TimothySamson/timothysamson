@@ -1,5 +1,5 @@
-title = "Anatole"
-description = "A other zola theme"
+title = "Timothy Samson"
+description = "journal, math blog, political ramblings "
 default_language = "en"
 
 # The URL the site will be built for
@@ -13,12 +13,26 @@ build_search_index = true
 
 theme = "anatole-zola"
 
+taxonomies = [
+  {name = "tags"},
+]
+
+[extra.social]
+github = "TimothySamson"
+stackoverflow = "823214" # use user_id
+mastodon = "mathstodon.xyz/@aldalire" # use hostname/@username
+linkedin = "https://www.linkedin.com/in/timothy-samson-8242801a0/"
+[extra.show]
+tags = true
+
+
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
 
 [extra]
+mode = "dark"
 # Put all your custom variables here
 
 [languages.en.translations]
@@ -31,3 +45,4 @@ links = "Links"
 date_format = "%Y-%m-%d"
 next_page = "Next Page"
 last_page = "Last Page"
+
