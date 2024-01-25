@@ -1,0 +1,18 @@
+base_url = "https://timothysamson.pages.dev"
+
+minify_html = true
+
+default_language = "en"
+
+[extra]
+# Put all your custom variables here
+name = { first = "Timothy", last = "Samson" }
+
+links = [
+   { icon = "fa-solid fa-envelope", url = "mailto:timothy.gab.samson@gmail.com" },
+   { icon = "fa-brands fa-linkedin", url = "https://www.linkedin.com/in/timothy-samson-8242801a0/" },
+   { icon = "fa-brands fa-github-alt", url = "https://github.com/TimothySamson" },
+   { icon = "fa-brands fa-stack-overflow", url = "https://math.stackexchange.com/users/823214/timothy-samson" },
+]
+
+sections = ["whoami", "expertise", "featured"]
